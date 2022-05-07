@@ -1,5 +1,5 @@
 export const color = {
-  button: '#EF0107',
+  mainContent: '#FF2400',
   gery1: '#43484d',
   grey2: '#5e6977',
   grey3: '#86939e',
@@ -8,5 +8,26 @@ export const color = {
 };
 
 export const parameter = {
-  headerHeight: 50,
+  headerHeight: 45,
+
+  buttonStyles: {
+    backgroundColor: '#FF2400',
+    alignContent: 'center',
+    justifyContent: 'center',
+    borderRadius: 12,
+    borderWidth: 1,
+    borderColor: '#FF2400',
+    height: 50,
+    paddingHorizontal: 20,
+    width: '100%',
+  },
+
+  buttonText: {
+    color: '#fff',
+    fontSize: 20,
+    fontWeight: '900',
+    alignItems: 'center',
+    justifyContent: 'center',
+    marginTop: -3,
+  },
 };
